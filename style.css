@@ -1,0 +1,131 @@
+/*Configaracao geral*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+body {
+   width: 100%;
+   font-size: 100%;
+   list-style-type: none;
+   font-family: 'Open Sans', sans-serif;
+   color: #000000;
+   margin: 20px;
+}
+
+/*Estilo Cabecalho*/
+.cabecalho {
+   background-color: #a1a2a9;
+}
+.cabecalho__navegacao {
+   text-align: center;
+   padding-bottom: 15px;
+}
+
+.cabecalho__imagem {
+   width: 80px;
+   height: auto;
+   margin: auto;
+   display: block;
+   padding: 20px 0px;
+}
+
+.cabecalho__link {
+   display: inline;
+   padding: 20px;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+.cabecalho__link a {
+   color: #000000;
+}
+
+/*Estilo Titulo da pagina*/
+.titulo-site {
+   padding: 20px 0px;
+   text-align: center;
+}
+
+.subtitulo-site {
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+/*Estilo Noticia principal*/
+.noticia-principal {
+   text-align: center;
+}
+
+.noticia-principal__imagem {
+   width: 100%;
+   height: auto;
+   max-width: 700px;
+}
+
+.noticia-principal__titulo {
+   padding: 20px 0px;
+   font-size: 18px;
+}
+
+.noticia-principal__texto {
+   padding-bottom: 10px;
+}
+
+.container {
+   display: inline-block;
+   width: 200px;
+   height: 100%;
+   margin: 30px;
+   text-align: center;
+   vertical-align: top;
+}
+
+.alinhamento {
+   text-align: center;
+   padding: 20px 0;
+   position: relative;
+}
+
+/*Estilo dos blocos de noticias*/
+.bloco-noticia__titulo {
+   padding-bottom: 20px;
+}
+
+.bloco-noticia__texto {
+   padding-top: 30px;
+   padding-bottom: 20px;
+}
+
+.bloco-noticia__imagem {
+   width: 100%;
+}
+
+cite {
+   font-size: 12px;
+}
+
+.bloco-noticia__link {
+   display: block;
+   padding-top: 20px;
+   text-decoration: underline;
+   color: #0000ff;
+}
+
+.bloco-noticia__link:hover {
+   color: blueviolet;
+   font-size: 17px;
+}
+
+/*Esitlo Rodape*/
+.rodape {
+   padding: 50px 0;
+   background-color: #a1a2a9;
+}
+
+.rodape__texto {
+   text-align: center;
+   font-weight: bold;
+}
